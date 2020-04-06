@@ -1,5 +1,6 @@
 <h1 align="center">@compactjs/parse-time</h1>
-<p>
+<h3 align="center">Tiny time parser</h3>
+<p align="center">
   <a href="https://www.npmjs.com/package/@compactjs/parse-time" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@compactjs/parse-time.svg">
   </a>
@@ -7,12 +8,22 @@
     <img alt="License: MIT" src="https://img.shields.io/github/license/CompactJS/parse-time" />
   </a>
 </p>
+<p align="center">
+  ·
+  <a href="https://github.com/CompactJS/parse-time#readme">Homepage</a>
+  ·
+  <a href="https://github.com/CompactJS/parse-time/issues">Report Bug / Request Feature</a>
+  ·
+</p>
 
-> A Tiny time parser
->
-> >
+## Table of Contents
 
-### 🏠 [Homepage](https://github.com/CompactJS/parse-time#readme)
+- [Installation](#Install)
+- [Usage](#usage)
+- [Test](#run-tests)
+- [Contact](#contact)
+- [Contributing](#Contributing)
+- [License](#license)
 
 ## Install
 
@@ -48,27 +59,25 @@ parse('13:30'); // => 13.5
 npm run test
 ```
 
-## Author
+## Contact
 
 👤 **Timo Bechtel <timo@bechtel.solutions>**
 
 - Website: https://timobechtel.com
-  - Twitter: [@TimoBechtel](https://twitter.com/TimoBechtel)
-  - GitHub: [@TimoBechtel](https://github.com/TimoBechtel)
+- Twitter: [@TimoBechtel](https://twitter.com/TimoBechtel)
+- GitHub: [@TimoBechtel](https://github.com/TimoBechtel)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />
 
-1. Check issues
+1. Check [issues](<%= issuesUrl %>)
 1. Fork the Project
 1. Create your Feature Branch (`git checkout -b feat/AmazingFeature`)
 1. Test your changes `npm run test`
 1. Commit your Changes (`git commit -m 'feat: add amazingFeature'`)
 1. Push to the Branch (`git push origin feat/AmazingFeature`)
 1. Open a Pull Request
-
-Feel free to check [issues page](https://github.com/CompactJS/parse-time/issues).
 
 ### Commit messages
 
