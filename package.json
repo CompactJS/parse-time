@@ -1,6 +1,6 @@
 {
   "name": "@compactjs/parse-time",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny hour parser",
   "source": "src/index.ts",
   "main": "dist/index.js",
