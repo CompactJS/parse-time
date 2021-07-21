@@ -1,5 +1,5 @@
 <h1 align="center">@compactjs/parse-time</h1>
-<h3 align="center">Tiny time parser</h3>
+<h3 align="center">Tiny hour parser & stringifier</h3>
 <p align="center">
   <a href="https://www.npmjs.com/package/@compactjs/parse-time" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@compactjs/parse-time.svg">
@@ -44,13 +44,30 @@ npm install @compactjs/parse-time
 ### As module:
 
 ```javascript
-import { parse } from '@compactjs/parse-time';
+import { parse, stringify } from '@compactjs/parse-time';
 ```
 
 ### Example:
 
 ```javascript
+// parse a time string to a number
 parse('13:30'); // => 13.5
+parse('13:19:48'); // => 13.33
+
+// stringify a number to a time string
+stringify(13.33); // => 13:19:48
+
+// formating options:
+stringify(13.33, 'hh'); // => 13
+stringify(13.33, 'hh:mm'); // => 13:19
+stringify(13.33, 'hh:mm:ss'); // => 13:19:48
+
+// it accepts numbers higher than 24
+stringify(34.5); // => 34:30:00
+
+// to limit to a range between 0 and 24 (or 0-12),
+// I recommend to use https://github.com/CompactJS/limit
+stringify(limit(34.5, 24)); // => 10:30:00
 ```
 
 ## Run tests
