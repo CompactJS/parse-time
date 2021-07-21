@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CompactJS/parse-time/compare/v1.0.2...v1.1.0) (2021-07-21)
+
+
+### Features
+
+* add function to stringify numbers to time strings ([bfba184](https://github.com/CompactJS/parse-time/commit/bfba184065ff8f85631ecf9ebf044e4abf7f5a9c))
+
 ## [1.0.2](https://github.com/CompactJS/parse-time/compare/v1.0.1...v1.0.2) (2021-04-19)
 
 
