@@ -14,7 +14,8 @@
     "test": "npm run build && node test/index.test.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "package.json"
   ],
   "repository": {
     "type": "git",
@@ -34,8 +35,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "eslint": "^7.24.0",
-    "microbundle": "^0.13.0",
-    "semantic-release": "^17.4.2"
+    "microbundle": "^0.13.3",
+    "semantic-release": "^17.4.4"
   }
 }
